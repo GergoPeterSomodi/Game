@@ -12,6 +12,13 @@ def create_globe(width, height):
     return [[0 for i in range(width)] for x in range(height)]
 
 
+
+
+
+
+
+
+
 def render(globe, tower, gates):
     number_of_rows = len(globe)
     for x in range(number_of_rows):
